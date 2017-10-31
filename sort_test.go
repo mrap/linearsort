@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	linearsort "github.com/mrap/linearsort/sort"
+	"github.com/mrap/linearsort"
 )
 
 func BenchmarkLibSort1000(b *testing.B)        { benchmarkLibSort(b, 1000) }
